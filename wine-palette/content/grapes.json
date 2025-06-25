@@ -185,18 +185,28 @@
     ],
     "aroma": [
       {
+        "title": "",
+        "description": "",
         "imagePath": "/image/aroma/gooseberry.png"
       },
       {
+        "title": "",
+        "description": "",
         "imagePath": "/image/aroma/grass.png"
       },
       {
+        "title": "",
+        "description": "",
         "imagePath": "/image/aroma/lime.png"
       },
       {
+        "title": "",
+        "description": "",
         "imagePath": "/image/aroma/elderflower.png"
       },
       {
+        "title": "",
+        "description": "",
         "imagePath": "/image/aroma/passionfruit.png"
       }
     ]
