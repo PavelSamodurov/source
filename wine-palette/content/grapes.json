@@ -1,6 +1,208 @@
 [
   {
-    "id": "e3672b7e-fc30-47af-a886-5bcf77fd4a16",
+    "id": "e3672b7e-fc30-47af-a886-5bcf77fd4a01",
+    "name": "Каберне Совиньон",
+    "tagline": "Один из самых известных и уважаемых сортов винограда в мире, родом из Бордо",
+    "description": "",
+    "imagePath": "/image/grape/cabernet-sauvignon.png",
+    "labels": [
+      "red"
+    ],
+    "aroma": [
+      {
+        "title": "",
+        "description": "",
+        "imagePath": "/image/aroma/blackcurrant.png"
+      },
+      {
+        "title": "",
+        "description": "",
+        "imagePath": "/image/aroma/cedar.png"
+      },
+      {
+        "title": "",
+        "description": "",
+        "imagePath": "/image/aroma/green-pepper.png"
+      },
+      {
+        "title": "",
+        "description": "",
+        "imagePath": "/image/aroma/mint.png"
+      },
+      {
+        "title": "",
+        "description": "",
+        "imagePath": "/image/aroma/tobacco.png"
+      }
+    ]
+  },
+  {
+    "id": "e3672b7e-fc30-47af-a886-5bcf77fd4a02",
+    "name": "Мерло",
+    "tagline": "Ценится за мягкость, округлость и фруктовость",
+    "description": "",
+    "imagePath": "/image/grape/merlot.png",
+    "labels": [
+      "red"
+    ],
+    "aroma": [
+      {
+        "title": "",
+        "description": "",
+        "imagePath": "/image/aroma/plum.png"
+      },
+      {
+        "title": "",
+        "description": "",
+        "imagePath": "/image/aroma/black-cherry.png"
+      },
+      {
+        "title": "",
+        "description": "",
+        "imagePath": "/image/aroma/chocolate.png"
+      },
+      {
+        "title": "",
+        "description": "",
+        "imagePath": "/image/aroma/herbs.png"
+      },
+      {
+        "title": "",
+        "description": "",
+        "imagePath": "/image/aroma/vanilla.png"
+      }
+    ]
+  },
+  {
+    "id": "e3672b7e-fc30-47af-a886-5bcf77fd4a03",
+    "name": "Пино Нуар",
+    "tagline": "Утончённый и капризный красный сорт винограда, родом из Бургундии",
+    "description": "",
+    "imagePath": "/image/grape/pinot-noir.png",
+    "labels": [
+      "red"
+    ],
+    "aroma": [
+      {
+        "title": "",
+        "description": "",
+        "imagePath": "/image/aroma/cherry.png"
+      },
+      {
+        "title": "",
+        "description": "",
+        "imagePath": "/image/aroma/raspberry.png"
+      },
+      {
+        "title": "",
+        "description": "",
+        "imagePath": "/image/aroma/mushroom.png"
+      },
+      {
+        "title": "",
+        "description": "",
+        "imagePath": "/image/aroma/violet.png"
+      }
+    ]
+  },
+  {
+    "id": "e3672b7e-fc30-47af-a886-5bcf77fd4a04",
+    "name": "Сира / Шираз",
+    "tagline": "Тёмнокожий сорт, дающий насыщенные, пряные и полнотелые красные вина",
+    "description": "",
+    "imagePath": "/image/grape/syrah-shiraz.png.png",
+    "labels": [
+      "red"
+    ],
+    "aroma": [
+      {
+        "title": "",
+        "description": "",
+        "imagePath": "/image/aroma/blueberry.png"
+      },
+      {
+        "title": "",
+        "description": "",
+        "imagePath": "/image/aroma/pepper.png"
+      },
+      {
+        "title": "",
+        "description": "",
+        "imagePath": "/image/aroma/olive.png"
+      },
+      {
+        "title": "",
+        "description": "",
+        "imagePath": "/image/aroma/licorice.png"
+      }
+    ]
+  },
+  {
+    "id": "e3672b7e-fc30-47af-a886-5bcf77fd4a05",
+    "name": "Шардоне",
+    "tagline": "Вина варьируются от лёгких и минеральных до полнотелых и выдержанных в дубе",
+    "description": "",
+    "imagePath": "/image/grape/chardonnay.png",
+    "labels": [
+      "white"
+    ],
+    "aroma": [
+      {
+        "title": "",
+        "description": "",
+        "imagePath": "/image/aroma/apple.png"
+      },
+      {
+        "title": "",
+        "description": "",
+        "imagePath": "/image/aroma/pear.png"
+      },
+      {
+        "title": "",
+        "description": "",
+        "imagePath": "/image/aroma/citrus.png"
+      },
+      {
+        "title": "",
+        "description": "",
+        "imagePath": "/image/aroma/butter.png"
+      },
+      {
+        "title": "",
+        "description": "",
+        "imagePath": "/image/aroma/vanilla.png"
+      }
+    ]
+  },
+  {
+    "id": "e3672b7e-fc30-47af-a886-5bcf77fd4a06",
+    "name": "Совиньон Блан",
+    "tagline": "Яркий, ароматный белый сорт винограда, родом из долины Луары",
+    "description": "",
+    "imagePath": "/image/grape/sauvignon-blanc.png",
+    "labels": [
+      "white"
+    ],
+    "aroma": [
+      {
+        "imagePath": "/image/aroma/gooseberry.png"
+      },
+      {
+        "imagePath": "/image/aroma/grass.png"
+      },
+      {
+        "imagePath": "/image/aroma/lime.png"
+      },
+      {
+        "imagePath": "/image/aroma/elderflower.png"
+      },
+      {
+        "imagePath": "/image/aroma/passionfruit.png"
+      }
+    ]
+  },
+  {
+    "id": "e3672b7e-fc30-47af-a886-5bcf77fd4a07",
     "name": "Рислинг",
     "tagline": "Один из самых выразительных и терруарно-чувствительных в мире",
     "description": "Один из самых универсальных и уважаемых белых сортов винограда. Он широко выращивается в умеренных климатах и ценится за способность отражать особенности местности, где он произрастает. Вина из рислинга могут быть как сухими, так и сладкими, и нередко хорошо выдерживаются с возрастом.",
@@ -13,6 +215,31 @@
         "title": "Цитрусовые ноты",
         "description": "Лайм, лимон, грейпфрут — свежие, яркие ароматы, особенно характерные для молодых и сухих рислингов",
         "imagePath": "/image/aroma/lime.png"
+      },
+      {
+        "title": "Косточковые фрукты",
+        "description": "Абрикос, персик, нектарин — выражены в более спелых или полусладких стилях, особенно из тёплых регионов.",
+        "imagePath": "/image/aroma/peach.png"
+      },
+      {
+        "title": "Зелёные фрукты",
+        "description": "Зелёное яблоко, груша — типичны для прохладного климата и сухих вин, подчёркивают свежесть.",
+        "imagePath": "/image/aroma/apple.png"
+      },
+      {
+        "title": "Цветочные ноты",
+        "description": "Белые цветы, жасмин, липовый цвет — добавляют элегантности и лёгкости в ароматический профиль",
+        "imagePath": "/image/aroma/floral.png"
+      },
+      {
+        "title": "Тропические фрукты",
+        "description": "Манго, ананас — встречаются в более зрелых рислингах из тёплого климата (например, Австралии или Калифорнии)",
+        "imagePath": "/image/aroma/mango.png"
+      },
+      {
+        "title": "Дополнительные нюансы",
+        "description": "Сланец, мокрый камень, мёд, воск — проявляются при выдержке; иногда присутствует характерная нефтяная нота",
+        "imagePath": "/image/aroma/honey.png"
       }
     ],
     "flavor": [
@@ -20,6 +247,26 @@
         "title": "Кислотность",
         "description": "Рислинг славится своей высокой и освежающей кислотностью, которая делает его особенно живым и сбалансированным. Даже сладкие стили сохраняют ощущение свежести благодаря кислотному хребту.",
         "imagePath": "/image/flavor/acidity.png"
+      },
+      {
+        "title": "Сладость",
+        "description": "Вина из рислинга бывают в разных стилях — от полностью сухих до десертных. Сладость варьируется в зависимости от региона и винодельческой традиции, особенно в Германии",
+        "imagePath": "/image/flavor/honey.png"
+      },
+      {
+        "title": "Тело",
+        "description": "Как правило, лёгкое или среднетелое, но может ощущаться более полно за счёт остаточного сахара и текстуры",
+        "imagePath": "/image/flavor/white-body.png"
+      },
+      {
+        "title": "Текстура",
+        "description": "Чистая, гладкая, иногда слегка маслянистая в выдержанных версиях",
+        "imagePath": "/image/flavor/butter.png"
+      },
+      {
+        "title": "Послевкусие",
+        "description": "Долгое, часто с минеральными оттенками и нотками зрелых фруктов или мёда в более развитых винах",
+        "imagePath": "/image/flavor/finish.png"
       }
     ],
     "foods": [
@@ -27,6 +274,31 @@
         "title": "Утка по-пекински",
         "imagePath": "/image/food/peking-duck.png",
         "backgroundColor": "#D9B6A0"
+      },
+      {
+        "title": "Устрицы с лимоном",
+        "imagePath": "/image/food/oysters-with-lemon.png",
+        "backgroundColor": "#D6E4DC"
+      },
+      {
+        "title": "Запечённая свинина с яблоками",
+        "imagePath": "/image/food/baked-pork-with-apples.png",
+        "backgroundColor": "#D9B6A0"
+      },
+      {
+        "title": "Тунец тартар с авокадо",
+        "imagePath": "/image/food/tuna-tartare-with-avocado.png",
+        "backgroundColor": "#D9B6A0"
+      },
+      {
+        "title": "Камамбер с мёдом",
+        "imagePath": "/image/food/camembert-with-honey.png",
+        "backgroundColor": "#F6E6C1"
+      },
+      {
+        "title": "Яблочный штрудель",
+        "imagePath": "/image/food/apple-strudel.png",
+        "backgroundColor": "#E2B79B"
       }
     ],
     "countries": [
