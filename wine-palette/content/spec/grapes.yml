@@ -1,0 +1,124 @@
+openapi: 3.0.4
+info:
+  title: wine palette specification
+  version: 1.0.0
+servers:
+  - url: https://pavelsamodurov.github.io/source/wine-palette
+paths:
+  /content/grapes:
+    get:
+      description: Returns all grapes.
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Grapes'
+        default:
+          description: Unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+components:
+  schemas:
+    Grapes:
+      type: array
+      items:
+        $ref: '#/components/schemas/Grape'
+    Grape:
+      type: object
+      required:
+        - id
+      properties:
+        id:
+          type: string
+          format: uuid
+          example: 'e3672b7e-fc30-47af-a886-5bcf77fd4a16'
+        name:
+          type: string
+          example: 'Рислинг'
+        tagline:
+          type: string
+          example: 'Один из самых выразительных и терруарно-чувствительных в мире'
+        description:
+          type: string
+          example: 'Один из самых универсальных и уважаемых белых сортов винограда. Он широко выращивается в умеренных климатах и ценится за способность отражать особенности местности, где он произрастает. Вина из рислинга могут быть как сухими, так и сладкими, и нередко хорошо выдерживаются с возрастом.'
+        imagePath:
+          type: string
+          example: '/image/grapes/riesling.png'
+        labels:
+          type: array
+          items:
+            type: string
+            example: 'white'
+        aroma:
+          type: array
+          items:
+            type: object
+            properties:
+              title:
+                type: string
+                example: 'Цитрусовые ноты'
+              description:
+                type: string
+                example: 'Лайм, лимон, грейпфрут — свежие, яркие ароматы, особенно характерные для молодых и сухих рислингов'
+              imagePath:
+                type: string
+                example: '/image/aroma/lime.png'
+        flavor:
+          type: array
+          items:
+            type: object
+            properties:
+              title:
+                type: string
+                example: 'Кислотность'
+              description:
+                type: string
+                example: 'Рислинг славится своей высокой и освежающей кислотностью, которая делает его особенно живым и сбалансированным. Даже сладкие стили сохраняют ощущение свежести благодаря кислотному хребту.'
+              imagePath:
+                type: string
+                example: '/image/flavor/acidity.png'
+        foods:
+          type: array
+          items:
+            type: object
+            properties:
+              title:
+                type: string
+                example: 'Утка по-пекински'
+              imagePath:
+                type: string
+                example: '/image/food/peking-duck.png'
+              backgroundColor:
+                type: string
+                example: '#D9B6A0'
+        countries:
+          type: array
+          items:
+            type: object
+            properties:
+              title:
+                type: string
+                example: 'Франция'
+              imagePath:
+                type: string
+                example: '/image/country/france.png'
+              percent:
+                type: integer
+                minimum: 0
+                maximum: 100
+                example: '80'
+
+    Error:
+      type: object
+      properties:
+        code:
+          type: string
+        message:
+          type: string
+      required:
+        - code
+        - message
