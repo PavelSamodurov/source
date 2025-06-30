@@ -8,7 +8,7 @@
     "labels": [
       "red"
     ],
-    "aroma": [
+    "aromas": [
       {
         "title": "",
         "description": "",
@@ -45,7 +45,7 @@
     "labels": [
       "red"
     ],
-    "aroma": [
+    "aromas": [
       {
         "title": "",
         "description": "",
@@ -82,7 +82,7 @@
     "labels": [
       "red"
     ],
-    "aroma": [
+    "aromas": [
       {
         "title": "",
         "description": "",
@@ -114,7 +114,7 @@
     "labels": [
       "red"
     ],
-    "aroma": [
+    "aromas": [
       {
         "title": "",
         "description": "",
@@ -146,7 +146,7 @@
     "labels": [
       "white"
     ],
-    "aroma": [
+    "aromas": [
       {
         "title": "",
         "description": "",
@@ -183,7 +183,7 @@
     "labels": [
       "white"
     ],
-    "aroma": [
+    "aromas": [
       {
         "title": "",
         "description": "",
@@ -220,7 +220,7 @@
     "labels": [
       "white"
     ],
-    "aroma": [
+    "aromas": [
       {
         "title": "Цитрусовые ноты",
         "description": "Лайм, лимон, грейпфрут — свежие, яркие ароматы, особенно характерные для молодых и сухих рислингов",
@@ -252,7 +252,7 @@
         "imagePath": "/image/aroma/honey.png"
       }
     ],
-    "flavor": [
+    "flavors": [
       {
         "title": "Кислотность",
         "description": "Рислинг славится своей высокой и освежающей кислотностью, которая делает его особенно живым и сбалансированным. Даже сладкие стили сохраняют ощущение свежести благодаря кислотному хребту.",
@@ -313,9 +313,39 @@
     ],
     "countries": [
       {
+        "title": "Германия",
+        "imagePath": "/image/country/germany.png",
+        "percent": 45
+      },
+      {
+        "title": "Австралия",
+        "imagePath": "/image/country/australia.png",
+        "percent": 10
+      },
+      {
         "title": "Франция",
         "imagePath": "/image/country/france.png",
-        "percent": 80
+        "percent": 9
+      },
+      {
+        "title": "США",
+        "imagePath": "/image/country/usa.png",
+        "percent": 8
+      },
+      {
+        "title": "Австрия",
+        "imagePath": "/image/country/austria.png",
+        "percent": 6
+      },
+      {
+        "title": "Новая Зеландия",
+        "imagePath": "/image/country/new-zeland.png",
+        "percent": 5
+      },
+      {
+        "title": "Другие страны",
+        "imagePath": "/image/country/others.png",
+        "percent": 17
       }
     ]
   }

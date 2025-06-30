@@ -36,7 +36,7 @@ components:
         - description
         - imagePath
         - labels
-        - aroma
+        - aromas
       properties:
         id:
           type: string
@@ -59,7 +59,7 @@ components:
           items:
             type: string
             example: 'white'
-        aroma:
+        aromas:
           type: array
           items:
             type: object
@@ -77,7 +77,7 @@ components:
               imagePath:
                 type: string
                 example: '/image/aroma/lime.png'
-        flavor:
+        flavors:
           type: array
           items:
             type: object
